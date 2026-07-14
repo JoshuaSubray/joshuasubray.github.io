@@ -3,17 +3,11 @@
   font-family: Arial, sans-serif;
 }
 
-.navbar {
+.nav {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
-}
-
-.navbar a,
-.dropbtn {
-  text-decoration: none;
-  color: #333;
 }
 
 .dropdown {
