@@ -13,6 +13,7 @@ function App() {
             Projects
           </a>
           <ul className="dropdown-menu" aria-labelledby="projectsDropdown">
+            <li><a className="dropdown-item" href="https://joshuasubray.github.io/Junior/" target="_blank" rel="noreferrer">Grade Calculator</a></li>
             <li><a className="dropdown-item" href="https://github.com/JoshuaSubray/Currency-Exchange-Concept" target="_blank" rel="noreferrer">Currency Exchange App Concept</a></li>
             <li><a className="dropdown-item" href="https://github.com/JoshuaSubray/Car-Wash-Concept" target="_blank" rel="noreferrer">Car Wash Exchange Website Concept</a></li>
             <li><a className="dropdown-item" href="https://github.com/JoshuaSubray/Pype" target="_blank" rel="noreferrer">Pype: Instant Messaging Website</a></li>
