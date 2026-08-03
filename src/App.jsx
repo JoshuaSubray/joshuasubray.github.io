@@ -14,10 +14,17 @@ function App() {
           </a>
           <ul className="dropdown-content">
             <li><a href="https://github.com/JoshuaSubray/Junior-Grade-Calculator" target="_blank" rel="noreferrer">Junior: Grade Calculator</a></li>
-            <li><a href="https://github.com/JoshuaSubray/Currency-Exchange-Concept" target="_blank" rel="noreferrer">Currency Exchange App Concept</a></li>
-            <li><a href="https://github.com/JoshuaSubray/Car-Wash-Concept" target="_blank" rel="noreferrer">Car Wash Exchange Website Concept</a></li>
-            <li><a href="https://github.com/JoshuaSubray/Pype" target="_blank" rel="noreferrer">Pype: Instant Messaging Website</a></li>
-            <li><a href="https://github.com/JoshuaSubray/SeeSharpReviews" target="_blank" rel="noreferrer">See Sharp Reviews: Movie Review Website Concept</a></li>
+            <li className="dropdown nested-dropdown">
+              <a className="nav-link" href="#project-concepts">
+                Concepts
+              </a>
+              <ul className="dropdown-content nested-dropdown-content">
+                <li><a href="https://github.com/JoshuaSubray/SeeSharpReviews" target="_blank" rel="noreferrer">SeeSharpReviews: Movie Review Website Concept</a></li>
+                <li><a href="https://github.com/JoshuaSubray/Pype" target="_blank" rel="noreferrer">Pype: Instant Messenger Website Concept</a></li>
+                <li><a href="https://github.com/JoshuaSubray/Currency-Exchange-Concept" target="_blank" rel="noreferrer">JAJ Currency Exchange: Mobile App Concept</a></li>
+                <li><a href="https://github.com/JoshuaSubray/Car-Wash-Concept" target="_blank" rel="noreferrer">JAJ Car Wash: Website Concept</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </nav>

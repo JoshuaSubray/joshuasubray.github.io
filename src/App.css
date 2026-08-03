@@ -23,6 +23,10 @@
   padding: 0.5rem 0;
 }
 
+.nested-dropdown > .nav-link {
+  color: #007bff;
+}
+
 .nav-link:hover {
   text-decoration: underline;
   color: #0056b3;
@@ -47,6 +51,10 @@
   margin: 0;
 }
 
+.dropdown-content li {
+  list-style: none;
+}
+
 .dropdown-content li a {
   display: block;
   padding: 0.5rem 1rem;
@@ -58,8 +66,15 @@
   background-color: #f8f9fa;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover > .dropdown-content,
+.dropdown:focus-within > .dropdown-content {
   display: block;
+}
+
+.nested-dropdown-content {
+  top: 0;
+  left: 100%;
+  margin-left: 0.25rem;
 }
 
 .app-description {
