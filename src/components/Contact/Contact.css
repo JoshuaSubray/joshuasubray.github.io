@@ -1,0 +1,47 @@
+.contact-links-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.contact-box {
+  padding: 1.25rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.contact-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  flex: 0 0 auto;
+}
+
+.contact-box:hover {
+  border-color: var(--accent-color);
+}
+
+.contact-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.contact-url {
+  color: #57606a;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .contact-box {
+    width: 100%;
+  }
+}
