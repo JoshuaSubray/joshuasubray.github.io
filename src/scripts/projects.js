@@ -10,7 +10,7 @@ export const projects = [
         title: 'SeeSharpReviews',
         description: '2026',
         image: '',
-        tags: ['C#', '.NET', 'API'],
+        tags: ['ASP.NET Core', 'C#', 'API'],
         github: 'https://github.com/JoshuaSubray/SeeSharpReviews',
     },
     {
@@ -21,11 +21,25 @@ export const projects = [
         github: 'https://github.com/lgxnders/Capstone-Project',
     },
     {
+        title: 'Birman Banking',
+        description: '2025',
+        image: '',
+        tags: ['Vite + React', 'Spring', 'Web'],
+        github: 'https://github.com/BeaVert16/Birman-Banking-CPAN-228-Frontend',
+    },
+    {
         title: 'Pype: Instant Messenger',
         description: '2025',
         image: '',
         tags: ['Flask', 'Python', 'Web'],
         github: 'https://github.com/JoshuaSubray/Pype',
+    },
+    {
+        title: 'JAJ: Car Wash',
+        description: '2024',
+        image: '',
+        tags: ['Node.js', 'Pug', 'Web'],
+        github: 'https://github.com/JoshuaSubray/JAJ-Car-Wash',
     },
     {
         title: 'JAJ: Currency Exchange',
@@ -35,10 +49,17 @@ export const projects = [
         github: 'https://github.com/JoshuaSubray/JAJ-Currency-Exchange',
     },
     {
-        title: 'JAJ: Car Wash',
+        title: 'JJ: Currency Exchange',
         description: '2024',
         image: '',
-        tags: ['Pug', 'Node.js', 'Web'],
-        github: 'https://github.com/JoshuaSubray/JAJ-Car-Wash',
+        tags: ['React', 'API', 'Web'],
+        github: 'https://github.com/JoshuaSubray/JJ-Currency-Exchange',
     },
+    {
+        title: 'Space Observatory',
+        description: '2023',
+        image: '',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/JoshuaSubray/Space-Observatory',
+    }
 ]
