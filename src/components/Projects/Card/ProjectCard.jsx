@@ -1,3 +1,4 @@
+import { FaGithub } from 'react-icons/fa6'
 import './ProjectCard.css'
 
 function ProjectCard({ project }) {
@@ -13,7 +14,12 @@ function ProjectCard({ project }) {
 
       <div className="project-body">
         <h3 className="project-title">
-          <a href={project.github} target="_blank" rel="noreferrer" className="accent-link">
+          <a 
+            href={project.deployment || project.github || '#'} 
+            target={(project.deployment || project.github) ? '_blank' : '_self'} 
+            rel="noreferrer" 
+            className="accent-link"
+          >
             {project.title}
           </a>
         </h3>
@@ -26,8 +32,8 @@ function ProjectCard({ project }) {
               <span key={tag} className="tag">{tag}</span>
             ))}
           </div>
-          <a href={project.github} target="_blank" rel="noreferrer" className="repo-link accent-link">
-            GitHub &rarr;
+          <a href={project.github} target="_blank" rel="noreferrer" className="repo-link" aria-label="GitHub Repository">
+            <FaGithub size={24} />
           </a>
         </div>
       </div>

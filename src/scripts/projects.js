@@ -5,6 +5,7 @@ export const projects = [
         image: '',
         tags: ['Vite + React', 'TypeScript', 'Web'],
         github: 'https://github.com/JoshuaSubray/Junior',
+        deployment: 'https://joshuasubray.github.io/Junior/',
     },
     {
         title: 'SeeSharpReviews',
@@ -12,6 +13,7 @@ export const projects = [
         image: '',
         tags: ['ASP.NET Core', 'C#', 'API'],
         github: 'https://github.com/JoshuaSubray/SeeSharpReviews',
+        deployment: 'https://seesharpreviews.onrender.com',
     },
     {
         title: 'Care Compass',
@@ -26,6 +28,7 @@ export const projects = [
         image: '',
         tags: ['Vite + React', 'Spring', 'Web'],
         github: 'https://github.com/BeaVert16/Birman-Banking-CPAN-228-Frontend',
+        deployment: 'https://birman-banking.onrender.com',
     },
     {
         title: 'Pype: Instant Messenger',
@@ -33,6 +36,7 @@ export const projects = [
         image: '',
         tags: ['Flask', 'Python', 'Web'],
         github: 'https://github.com/JoshuaSubray/Pype',
+        deployment: 'https://pype.onrender.com',
     },
     {
         title: 'JAJ: Car Wash',
@@ -40,6 +44,7 @@ export const projects = [
         image: '',
         tags: ['Node.js', 'Pug', 'Web'],
         github: 'https://github.com/JoshuaSubray/JAJ-Car-Wash',
+        deployment: 'https://jaj-car-wash.onrender.com',
     },
     {
         title: 'JAJ: Currency Exchange',
@@ -47,6 +52,7 @@ export const projects = [
         image: '',
         tags: ['React Native', 'API', 'Mobile'],
         github: 'https://github.com/JoshuaSubray/JAJ-Currency-Exchange',
+        deployment: 'https://jaj-currency-exchange.onrender.com',
     },
     {
         title: 'JJ: Currency Exchange',
@@ -54,6 +60,7 @@ export const projects = [
         image: '',
         tags: ['React', 'API', 'Web'],
         github: 'https://github.com/JoshuaSubray/JJ-Currency-Exchange',
+        deployment: 'https://joshuasubray.github.io/JJ-Currency-Exchange',
     },
     {
         title: 'Space Observatory',
@@ -61,5 +68,6 @@ export const projects = [
         image: '',
         tags: ['HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/JoshuaSubray/Space-Observatory',
+        deployment: 'https://joshuasubray.github.io/Space-Observatory'
     }
 ]
