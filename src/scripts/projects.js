@@ -1,6 +1,6 @@
 export const projects = [
     {
-        title: 'Junior: Grade Calculator',
+        title: 'Junior: Grade Calculator [W.I.P.]',
         description: '2026',
         image: '',
         tags: ['Vite + React', 'TypeScript', 'Web'],
@@ -21,6 +21,7 @@ export const projects = [
         image: '',
         tags: ['Vite + React', 'TypeScript', 'Web'],
         github: 'https://github.com/lgxnders/Capstone-Project',
+        deployment: 'https://care-compass-00mc.onrender.com/',
     },
     {
         title: 'Birman Banking',

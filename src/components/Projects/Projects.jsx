@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects" className="projects-container">
       <h2 className="section-heading">Personal Projects</h2>
-      <p className="section-subtext">Published non-professional projects. Click on a project's title to view it's demo!</p>
+      <p className="section-subtext">My published non-professional concepts and projects. Click on a title to view its demo</p>
 
       <div className="projects-grid">
         {projects.map((project) => (
