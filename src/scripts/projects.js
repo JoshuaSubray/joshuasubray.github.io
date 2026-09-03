@@ -5,7 +5,7 @@ export const projects = [
         image: '',
         tags: ['Vite + React', 'TypeScript', 'Web'],
         github: 'https://github.com/JoshuaSubray/Junior',
-        deployment: 'https://joshuasubray.github.io/Junior/',
+        deployment: 'https://joshuasubray.github.io/Junior',
     },
     {
         title: 'SeeSharpReviews',
@@ -21,7 +21,7 @@ export const projects = [
         image: '',
         tags: ['Vite + React', 'TypeScript', 'Web'],
         github: 'https://github.com/lgxnders/Capstone-Project',
-        deployment: 'https://care-compass-00mc.onrender.com/',
+        deployment: 'https://care-compass-capstone.onrender.com',
     },
     {
         title: 'Birman Banking',
