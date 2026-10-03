@@ -2,33 +2,40 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .project-card:hover {
   border-color: var(--accent-color);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 16px rgba(9, 105, 218, 0.08), 0 2px 6px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
 }
+
+/* ── Screenshot area ── */
 
 .screenshot-container {
   width: 100%;
-  height: 160px;
-  background: #f6f8fa;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #f0f2f5 0%, #e8ecf0 100%);
   border-bottom: 1px solid #d0d7de;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .screenshot-gallery {
   display: flex;
-  align-self: stretch;
+  width: 100%;
   height: 100%;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+  scrollbar-width: none;
+}
+
+.screenshot-gallery::-webkit-scrollbar {
+  display: none;
 }
 
 .screenshot-text {
@@ -43,7 +50,39 @@
   height: 100%;
   object-fit: cover;
   scroll-snap-align: start;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
+
+.project-image:hover {
+  transform: scale(1.03);
+  filter: brightness(1.04);
+}
+
+/* Expand hint icon that appears on hover */
+.screenshot-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  width: 28px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cpolyline points='9 21 3 21 3 15'/%3E%3Cline x1='21' y1='3' x2='14' y2='10'/%3E%3Cline x1='3' y1='21' x2='10' y2='14'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
+}
+
+.screenshot-container:hover::after {
+  opacity: 1;
+}
+
+/* ── Card body ── */
 
 .project-body {
   padding: 1.25rem;
