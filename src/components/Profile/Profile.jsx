@@ -12,7 +12,7 @@ function Profile() {
         <div className="description-section surface">
           <p className="description-content">
             Joshua Subray is a passionate full-stack programmer, currently working as a freelance web developer with
-            {' '}<a href="https://www.instagram.com/dev.velosdigital/" target="_blank" rel="noreferrer"><em>Velos Digital</em></a>,
+            {' '}<a href="https://www.velosdigital.ca/" target="_blank" rel="noreferrer"><em>Velos Digital</em></a>,
             helping bring many small to medium-sized local businesses concepts to life.
             <br /><br />
             Across numerous collaborative projects, Joshua has gained extensive experience with various programming languages and frameworks and can easily adapt to anything new. Graduated from Humber Polytechnic, and currently attending York University, Joshua is always looking to learn more and grow as a developer.

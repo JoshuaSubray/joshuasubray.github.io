@@ -1,5 +1,5 @@
 import { emailAddress } from '../../scripts/email.js'
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa6'
+import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin } from 'react-icons/fa6'
 import './Contact.css'
 
 function Contact() {
@@ -14,6 +14,7 @@ function Contact() {
           </span>
           <FaEnvelope className="contact-icon accent-link" aria-hidden="true" />
         </a>
+        
         <a href="https://linkedin.com/in/joshuasubray" target="_blank" rel="noreferrer" className="contact-box surface">
           <span className="contact-copy">
             <span className="contact-title accent-link">LinkedIn</span>
@@ -21,12 +22,21 @@ function Contact() {
           </span>
           <FaLinkedin className="contact-icon accent-link" aria-hidden="true" />
         </a>
+
         <a href="https://github.com/JoshuaSubray" target="_blank" rel="noreferrer" className="contact-box surface">
           <span className="contact-copy">
             <span className="contact-title accent-link">GitHub</span>
             <span className="contact-url">github.com/JoshuaSubray</span>
           </span>
           <FaGithub className="contact-icon accent-link" aria-hidden="true" />
+        </a>
+
+        <a href="https://www.velosdigital.ca/" target="_blank" rel="noreferrer" className="contact-box surface">
+          <span className="contact-copy">
+            <span className="contact-title accent-link">Company Website</span>
+            <span className="contact-url">www.velosdigital.ca</span>
+          </span>
+          <FaGlobe className="contact-icon accent-link" aria-hidden="true" />
         </a>
       </div>
     </section>
